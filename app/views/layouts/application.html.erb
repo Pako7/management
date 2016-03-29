@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Myapplocal</title>
+  <title>Myapp</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -32,6 +32,14 @@
 		<div class="row">
 			<div class="col s12">
 			
+			<i class="material-icons">add</i>
+
+			<a class="waves-effect waves-light btn">Stuff</a>
+<a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
+<a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>button</a>
+<a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+
+
 	<%= yield %>
 			
 			</div>
@@ -51,4 +59,3 @@
 
 </body>
 </html>
-
